@@ -578,90 +578,83 @@ form .form-control {
 }
 /*Responsive layout*/
 /*Mobile phones*/
+/* Mobile phones */
 @media (max-width: 600px) {
-    .navbar-brand {
-        font-size: 1.2em;
-    }
-    .navbar-nav .nav-link {
-        font-size: 0.9em;
-    }
-    .navbar-nav {
-        flex-direction: column; /* Stacks items vertically */
-        gap: 5px;/*Gives space for items vertically*/
-    }
-    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
-        font-size: 1.8em;
-    }
-     #storyCarousel .carousel-item img {
-        height: 300px;
-    main p, .card p, .header p {
-        font-size: 0.9em;
-    }
-    .hero, .EO-kids-header {
-        padding: 1em 0;
-    } 
-    .team img { width: 80%; height: auto; } 
-    .card img { width: 100%; height: auto; }
+  .navbar-brand {
+      font-size: 1.2em;
+  }
+  .navbar-nav .nav-link {
+      font-size: 0.9em;
+  }
+  .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+      font-size: 1.8em;
+  }
+  main p, .card p, .header p {
+      font-size: 0.9em;
+  }
+  .hero, .EO-kids-header {
+      padding: 1em 0;
+  } 
+  .team img .card img { 
+      width: 100%; 
+      height: auto; 
+  }
 }
 /* Tablets (max-width: 768px) */
 @media (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.3em;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1em;
-    }
-    .navbar-nav {
-        flex-direction: row; /* Switch to horizontal layout for medium screens */
-        gap: 10px
-    }
-    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
-        font-size: 2em;
-    }
-    main p, .card p {
-        font-size: 1em;
-    }
-    .hero, .EO-kids-header {
-        padding: 1.5em 0;
-    }
-    .team img { width: 70%; height: auto; }
-    .card img { width: 100%; height: auto; }
+  .navbar-brand {
+      font-size: 1.3em;
+  }
+  .navbar-nav .nav-link {
+      font-size: 1em;
+  }
+  .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+      font-size: 2em;
+  }
+  main p, .card p {
+      font-size: 1em;
+  }
+  .hero, .EO-kids-header {
+      padding: 1.5em 0;
+  }
+  .team img .card img { 
+      width: 80%; 
+      height: auto; 
+  }
 }
-
 /* Desktops (max-width: 1200px) */
 @media (max-width: 1200px) {
-    .navbar-brand {
-        font-size: 1.4em;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1.1em;
-    }
-.navbar-nav {
-        flex-direction: row; 
-        gap: 15px;}
-    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
-        font-size: 2.2em;
-    }
-    main p, .card p {
-        font-size: 1.1em;
-    }
-    .team img { width: 60%; height:auto;}
-    .card img { width: 100%; height: auto; }
+  .navbar-brand {
+      font-size: 1.4em;
+  }
+  .navbar-nav .nav-link {
+      font-size: 1.1em;
+  }
+  .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+      font-size: 2.2em;
+  }
+  main p, .card p {
+      font-size: 1.1em;
+  }
+  .team img .card img { 
+      width: 70%; 
+      height: auto; 
+  }
 }
 /* Large Screens (max-width: 1600px) */
 @media (max-width: 1600px) {
-    .navbar-brand {
-        font-size: 1.5em;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1.2em;
-    }
-    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
-        font-size: 2.4em;
-    }
-    main p, .card p {
-        font-size: 1.2em;
-    }
+  .navbar-brand {
+      font-size: 1.5em;
+  }
+  .navbar-nav .nav-link {
+      font-size: 1.2em;
+  }
+  .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+      font-size: 2.4em;
+  }
+  main p, .card p {
+      font-size: 1.2em;
+  }
 }
 
 
