@@ -587,7 +587,8 @@ form .form-control {
     }
     .navbar-nav {
         flex-direction: column; /* Stacks items vertically */
-        gap: 5px;/*Gives space for items vertically*/}
+        gap: 3px;/*Gives space for items vertically*/
+    }
     .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
         font-size: 1.8em;
     }
