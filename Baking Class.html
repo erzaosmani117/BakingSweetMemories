@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Corner - Baking Sweet Memories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body id="BakingSweetMemories">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Baking Sweet Memories</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Cookie Classics.html">Cookie Classics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Baking Class.html">Baking Class</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header class="EO-kids-header">
+        <h1>Welcome to Baking Class!</h1>
+        <p>Where fun meets creativity, you can learn all about baking!</p>
+    </header>
+    <!--Form-->
+    <section class="EO-kids-form">
+        <h2 class="text-center">Join Our Class</h2>
+        <form id="kidsForm" class="p-4 bg-light border rounded">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Join Now</button>
+        </form>
+    </section>
+
+    <!--Table-->
+    <section class="EO-kids-table">
+        <h2 class="text-center">Our Top 3 Kid-Friendly Recipes</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Recipe Name</th>
+                    <th>Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chocolate Chip Cookies</td>
+                    <td>Easy</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rainbow Cupcakes</td>
+                    <td>Medium</td>
+                </tr>
+                <tr class="EO-highlight">
+                    <td>3</td>
+                    <td>Mini Donuts</td>
+                    <td>Easy</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <div class="text-center mb-5">
+        <a href="Cookie Stories.html" class="btn btn-outline-primary">
+            Sweet Stories Await!
+        </a>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-5">
+        <p>&copy; 2024 Baking Sweet Memories. All Rights Reserved.</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script>
+        document.getElementById('kidsForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for joining our Baking Club!');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

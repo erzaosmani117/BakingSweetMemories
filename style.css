@@ -1,0 +1,665 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+#BakingSweetMemories{
+    background-image: url(Images/pinkbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora';
+    display: flex; flex-direction: column; min-height: 100vh;
+}
+/*Header*/
+header{
+    padding: 10px 0;
+    text-align: center;
+    color: brown;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 0;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #530f39;
+    margin-bottom: 20px;
+    font-family: 'Cinzel';
+}
+h2{
+    margin:30px;
+    font-size: 30px;
+    font-family: 'Lora';
+    color: #a13180;
+}
+.container h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(85, 44, 73) !important;
+
+}
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Lora';
+}
+h5 {
+    font-size: 1.25rem;
+    color: #6b3e26;
+}
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.header p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Navbar*/
+.navbar {
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+   display: flex;
+    padding: 0;
+   /* justify-content:end;*/
+}
+nav ul li a{
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-nav {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: flex-start; /*Align items to the left*/
+    gap: 10px;
+    background-color: white;
+    font-weight: bold; }
+
+.navbar-nav .nav-item {
+    margin-bottom: 1px; /*For space between wrapped rows*/
+} 
+  .navbar-nav .nav-link {
+    color:palevioletred;
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+.navbar-nav .nav-link:hover {
+    color: rgb(184, 110, 67) ;
+    border-radius: 5px;
+  }
+.navbar-brand {
+    font-size: 1.5em; border-radius: 5px;
+    color:rgb(75, 4, 7);
+    font-weight: bold;
+    font-family:'Dancing Script';
+}
+/*Footer*/
+footer {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto !important;
+}
+.footer .text {
+    color: #333;
+    text-decoration: none;
+}
+footer a{
+    color: #333;
+    text-decoration: none;
+}
+footer a:hover {
+    color: blue;
+     text-decoration: none; }
+.bg-light {
+    background-color: white;
+}
+
+/*Index Page*/
+/* Main Content Styles */ 
+main { flex-grow: 1; margin-bottom: 4rem } 
+main h1 { font-size: 2.5em; color:rgb(85, 44, 73);}
+main p {color:#6b3e26; }
+main img { width: 50%;
+    height: 50%; border-radius: 12px; }
+.sentence{
+    font-family: 'Caveat';
+    color: #530f39 !important;
+    font-weight: bold;
+    font-size: 2rem;
+}
+img {
+    width: 100%;
+    height: 300px;}
+/*About*/
+.EO-meet-us{
+    background-color: rgba(150, 127, 88,0.2);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+}
+.EO-hero p {
+    color:rgb(80, 63, 33);
+    font-family: 'Lora';
+ }
+ .EO-hero .EO-container {
+    max-width: 800px;
+    margin: 0 auto; padding: 0 20px;
+ }  
+.EO-our-story .EO-container { 
+    max-width: 800px;
+    margin: 0 auto; padding: 0 20px;
+     }
+ /* Team Section */
+.team img {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+ }
+/*Baker's Secret*/
+/*Buttons */
+.btn-primary {
+        background-color: #a13180;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box-shadow from your original */
+      }
+.btn-primary:hover {
+        transform: scale(1.2); /* Ensured your original scaling effect is kept */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced for hover for more depth */
+      }
+/* Show buttons on hover */
+.cookie-card:hover .hover-buttons {
+    display: flex;
+}
+.intro{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.about-cookies{
+    padding: 60px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 30px;
+}
+.about-cookies h2{
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Satisfy';
+}
+.about-cookies ul{
+    list-style-type:square;
+    padding: 0;
+}
+.about-cookies li{
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+.cookie-categoroies{
+    padding: 60px;
+    text-align: center;
+   background-color: #fff8e1;
+}
+.cookie-categoroies h2{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.Categories-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.category{
+    width: 250px; 
+    height: 350px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;/*To hide overflow if the content goes beyond container*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cookie-pic{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;/*border to seperate image from caption*/
+}
+figcaption{
+    font-size: 27px;
+    color: #444;
+    font-family: 'Caveat';
+    margin-top: 0px;
+}
+.quote-section{
+    text-align: center;
+    padding: 40px 20px;
+    background-color:#fdf4e3;
+    border-top: 2px solid #d2a679;
+    border-bottom: 2px solid #d2a679;
+}
+blockquote{
+    font-family: 'Cinzel';
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b4513;
+    margin: 0;
+    line-height: 1.5;
+    quotes: "" ""; 
+}
+blockquote::before{
+    content: open-quote;
+    font-size: 40px;
+    vertical-align: top; /*To align quote with the text*/
+    color: #8b4513;
+    margin-right:5px;
+ }
+blockquote::after{
+    content: close-quote;
+    font-size: 40px;
+    vertical-align: bottom;
+    color:#8b4513;
+    margin-left:5px;
+ }
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+    padding: 20px;
+}
+.about h2{
+    text-align: center;
+    font-size: 40px; }
+.cookie-gallery {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    padding: 20px;
+    gap: 20px; }
+
+.cookie-entry {
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+}
+.cookie-entry img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+  /* About Section */
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #a13180;
+}
+#about p {
+    line-height: 1.6;
+  }
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+  /* Sweets Section */
+#sweets .card {
+    border: none;
+    margin-bottom: 2rem;
+}  
+#sweets .card-img-top {
+    border-radius: 10px;
+} 
+#sweets .card-title {
+       font-size: 1.5rem;
+}
+  /* Contact Section */
+form input,
+form textarea {
+    border-radius: 10px;
+}
+form button {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 10px;
+}
+/* Article section style */
+.article h2, .article h3 {
+    color: #2f2f2f;
+}
+.article p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+/* Cookie Cards */
+.cookie-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.cookie-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.cookie-card:hover img {
+    transform: scale(1.1);
+}
+/* Captions */
+.cookie-card + p {
+    margin-top: 8px;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: lightcoral;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+/*Kid's Corner Page*/
+/* Custom CSS */
+.EO-kids-header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+.EO-kids-form, .EO-kids-table {
+    margin: 2rem auto;
+    max-width: 600px;
+}
+.kids-form input[type="text"], 
+.kids-form input[type="email"], 
+.kids-form button {
+    margin-bottom: 1rem;
+}
+
+.EO-highlight {
+    background-color: #ffe8e8;
+    font-weight: bold;
+}
+/*Cookie Stories Page*/
+/* Carousel Container */
+#storyCarousel {
+    max-width: 800px; /* Limit carousel width for a clean layout */
+    margin: 0 auto; /* Center the carousel */
+    border: 2px solid #f8f9fa;
+    border-radius: 10px; 
+    overflow: hidden; /* Prevent overflow for smooth design */
+}
+/* Carousel Images */
+#storyCarousel .carousel-item img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; /* Maintain a visually pleasing crop */
+    object-position: center; 
+    border-radius: 10px; 
+}
+/* Carousel Caption */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 1rem;
+    border-radius: 5px;
+}
+.carousel-caption h5 {
+    color: #ff6f61; 
+    font-weight: bold;
+}
+.carousel-caption p {
+    color: #ffffff; 
+    font-size: 1rem;
+}
+/* Carousel Controls */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1); /* Make navigation icons visible on all images */
+    opacity: 0.7; /* Add transparency to controls */
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    opacity: 1; /* Highlight controls when hovered */
+}
+/* Carousel responsive*/
+@media (max-width: 768px) {
+    #storyCarousel .carousel-item img {
+        height: 300px; /* Reduce height for smaller screens */
+    }
+}
+/*Charity Bakes*/
+#charity-bakes {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#charity-bakes header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#charity-bakes .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+/* Description Section */
+.EO-description {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Gallery Section */
+.EO-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+.EO-gallery .EO-item {
+    text-align: center;
+}
+.EO-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.EO-gallery p {
+    margin-top: 0.5rem;
+}
+/* Donate Section */
+.EO-donate {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.EO-donate ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+.EO-donate li {
+    margin: 0.5rem 0;
+}
+/*Testimonials*/
+blockquote {
+    font-style: italic;
+    color: #555;
+}
+.card {
+    border: none;
+    background-color: #f8f9fa;
+}
+.card:hover {
+    background-color: #fff3e0; 
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+.faq-btn {
+    margin-top: 10px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.faq-btn:hover {
+    background-color:brown;
+}
+/*Contact*/
+form .form-label {
+    font-weight: bold;
+}
+form .form-control {
+    border-radius: 5px;
+}
+.btn-warning {
+    background-color: plum;
+    border-color: purple;
+}
+.btn-warning:hover {
+    background-color: palevioletred;
+    border-color:crimson;
+}
+.btn-info {
+    color: white;
+    border: none;
+}
+/* Video Section Styling */
+.video-section {
+    background-color: #f1f1f1; 
+    padding: 40px 0;
+}
+.video-section h2 {
+    color: #333; 
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+.embed-responsive-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Responsive layout*/
+/*Mobile phones*/
+@media (max-width: 600px) {
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.9em;
+    }
+    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+        font-size: 1.8em;
+    }
+    main p, .card p, .header p {
+        font-size: 0.9em;
+    }
+    .hero, .EO-kids-header {
+        padding: 1em 0;
+    } 
+    .team img { width: 80%; height: auto; } 
+    .card img { width: 100%; height: auto; }
+}
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3em;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1em;
+    }
+    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+        font-size: 2em;
+    }
+    main p, .card p {
+        font-size: 1em;
+    }
+    .hero, .EO-kids-header {
+        padding: 1.5em 0;
+    }
+    .team img { width: 70%; height: auto; }
+    .card img { width: 100%; height: auto; }
+}
+
+/* Desktops (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .navbar-brand {
+        font-size: 1.4em;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.1em;
+    }
+    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+        font-size: 2.2em;
+    }
+    main p, .card p {
+        font-size: 1.1em;
+    }
+    .team img { width: 60%; height:auto;}
+    .card img { width: 100%; height: auto; }
+}
+/* Large Screens (max-width: 1600px) */
+@media (max-width: 1600px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.2em;
+    }
+    .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
+        font-size: 2.4em;
+    }
+    main p, .card p {
+        font-size: 1.2em;
+    }
+}
+
+
