@@ -458,12 +458,6 @@ form button {
 .carousel-control-next:hover .carousel-control-next-icon {
     opacity: 1; /* Highlight controls when hovered */
 }
-/* Carousel responsive*/
-@media (max-width: 768px) {
-    #storyCarousel .carousel-item img {
-        height: 300px; /* Reduce height for smaller screens */
-    }
-}
 /*Charity Bakes*/
 #charity-bakes {
     padding: 2rem 1rem;
@@ -597,6 +591,8 @@ form .form-control {
     .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
         font-size: 1.8em;
     }
+     #storyCarousel .carousel-item img {
+        height: 300px;
     main p, .card p, .header p {
         font-size: 0.9em;
     }
