@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora';
     display: flex; flex-direction: column; min-height: 100vh;
 }
 /*Header*/
@@ -70,7 +69,6 @@ nav ul {
     list-style-type: none;
    display: flex;
     padding: 0;
-   /* justify-content:end;*/
 }
 nav ul li a{
     margin: 0 5px;
@@ -145,8 +143,8 @@ main img { width: 50%;
     font-size: 2rem;
 }
 img {
-    width: 100%;
-    height: 300px;}
+   max-width: 100%;
+    height: auto;}
 /*About*/
 .EO-meet-us{
     background-color: rgba(150, 127, 88,0.2);
@@ -183,10 +181,10 @@ img {
         border-radius: 5px;
         cursor: pointer;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box-shadow from your original */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
       }
 .btn-primary:hover {
-        transform: scale(1.2); /* Ensured your original scaling effect is kept */
+        transform: scale(1.2); /* Ensured the original scaling effect is kept */
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced for hover for more depth */
       }
 /* Show buttons on hover */
@@ -215,7 +213,7 @@ img {
     font-size: 28px;
     color: #333;
     margin-bottom: 20px;
-    font-family: 'Satisfy';
+    font-family: 'Lora';
 }
 .about-cookies ul{
     list-style-type:square;
@@ -337,7 +335,7 @@ blockquote::after{
 }
   /* Sweets Section */
 #sweets .card {
-    border: none;
+   /* border: none;*/
     margin-bottom: 2rem;
 }  
 #sweets .card-img-top {
