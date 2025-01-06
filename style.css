@@ -587,7 +587,7 @@ form .form-control {
     }
     .navbar-nav {
         flex-direction: column; /* Stacks items vertically */
-        gap: 3px;/*Gives space for items vertically*/
+        gap: 5px;/*Gives space for items vertically*/
     }
     .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
         font-size: 1.8em;
@@ -611,6 +611,10 @@ form .form-control {
     .navbar-nav .nav-link {
         font-size: 1em;
     }
+    .navbar-nav {
+        flex-direction: row; /* Switch to horizontal layout for medium screens */
+        gap: 10px
+    }
     .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
         font-size: 2em;
     }
@@ -632,6 +636,9 @@ form .form-control {
     .navbar-nav .nav-link {
         font-size: 1.1em;
     }
+.navbar-nav {
+        flex-direction: row; 
+        gap: 15px;}
     .header h1, .EO-hero h1, .video-section h2, .EO-our-story h3, .card h5 {
         font-size: 2.2em;
     }
