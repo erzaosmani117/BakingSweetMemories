@@ -121,6 +121,8 @@ footer a{
 footer a:hover {
     color: blue;
      text-decoration: none; }
+.bg-light text-center py-3 mt-auto{
+    margin-top: auto !important ;}
 
 
 /*Index Page*/
