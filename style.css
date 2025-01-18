@@ -190,7 +190,7 @@ img {
 /* Show buttons on hover */
 .cookie-card:hover .hover-buttons {
     display: flex;
-}
+ } */
 .intro{
     text-align: center;
     padding: 20px;
@@ -362,7 +362,7 @@ form button {
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
-/* Cookie Cards */
+/* Cookie Cards 
 .cookie-card {
     position: relative;
     overflow: hidden;
@@ -377,8 +377,8 @@ form button {
 }
 .cookie-card:hover img {
     transform: scale(1.1);
-}
-/* Captions */
+}*/
+/* Captions 
 .cookie-card + p {
     margin-top: 8px;
 }
@@ -399,7 +399,7 @@ border-radius: 5px 5px 0 0;
     font-weight: bold;
     margin-bottom: 10px;
     color: lightcoral;
-}
+}*/
 /*Kid's Corner Page*/
 /* Custom CSS */
 .EO-kids-header {
@@ -521,7 +521,7 @@ blockquote {
     font-style: italic;
     color: #555;
 }
-.card {
+/*.card {
     border: none;
     background-color: #f8f9fa;
 }
@@ -529,7 +529,7 @@ blockquote {
     background-color: #fff3e0; 
     transform: scale(1.02);
     transition: 0.3s ease-in-out;
-}
+}*/
 .faq-btn {
     margin-top: 10px;
     background-color:crimson;
