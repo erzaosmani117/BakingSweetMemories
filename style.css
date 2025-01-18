@@ -408,9 +408,6 @@ border-radius: 5px 5px 0 0;
     margin-bottom: 10px;
     color: lightcoral;
 }
-.card-text{
-    height:50px;
-}
 /*Kid's Corner Page*/
 /* Custom CSS */
 .EO-kids-header {
@@ -533,6 +530,7 @@ blockquote {
     color: #555;
 }
 .card {
+    height:auto;
     border: none;
     background-color: #f8f9fa;
 }
