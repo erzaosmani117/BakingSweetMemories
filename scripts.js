@@ -20,3 +20,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+function downloadColoringPage() {
+    alert("Downloading coloring pages! Stay creative!");
+    // Simulate download action
+    const link = document.createElement('a');
+    link.href = 'path/to/coloring-pages.pdf'; // Replace with actual file path
+    link.download = 'ColoringPages.pdf';
+    link.click();
+}
+
+function showRecipe() {
+    const recipeModal = new bootstrap.Modal(document.getElementById('recipe-modal'));
+    recipeModal.show();
+}
