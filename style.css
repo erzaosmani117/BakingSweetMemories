@@ -369,8 +369,7 @@ form button {
     border-radius: 20px;
 }
 .cookie-card img {
-    width: 100%;
-    height: 200px;
+
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -385,6 +384,10 @@ form button {
 .card {
     border: none;
     transition: transform 0.3s ease;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
 }
 .card:hover {
     transform: scale(1.05);
