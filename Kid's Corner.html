@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="kids_corner.css">
+</head>
+<body id="BakingSweetMemories">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Baking Sweet Memories</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Cookie Classics.html">Cookie Classics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Baking Class.html">Baking Class</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Kid's Corner Section -->
+    <div class="kids-corner container mt-5">
+        <h1 class="text-center mb-4">Welcome to Kid's Corner!</h1>
+        <p class="text-center">A playful space for kids to explore, learn, and create delightful baking adventures!</p>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="fun-section" id="coloring-book">
+                    <h2>Coloring Fun</h2>
+                    <p>Unleash your creativity with our printable coloring pages!</p>
+                    <button class="btn btn-primary" onclick="downloadColoringPage()">Download Coloring Pages</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fun-section" id="recipe-challenge">
+                    <h2>Recipe Challenge</h2>
+                    <p>Follow simple steps to bake your first batch of cookies!</p>
+                    <button class="btn btn-success" onclick="showRecipe()">Start the Challenge</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="recipe-modal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Easy Cookie Recipe</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>1 cup flour</li>
+                            <li>1/2 cup sugar</li>
+                            <li>1/2 cup butter</li>
+                            <li>1 egg</li>
+                            <li>1 tsp vanilla</li>
+                        </ul>
+                        <p>Mix all ingredients, shape into cookies, and bake at 180°C for 10-12 minutes. Enjoy!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="kids_corner.js"></script>
+</body>
+</html>
