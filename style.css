@@ -385,51 +385,7 @@ px;
 .cookie-card:hover img {
     transform: scale(1.1);
 }
-.classics {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    transition: transform 0.3s ease;
-}
 
-.classics:hover {
-    transform: scale(1.05);
-}
-
-.card-body {
-    flex-grow: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-button {
-    margin-top: 10px;
-    transition: transform 0.3s ease;
-}
-
-button:hover {
-    transform: scale(1.1);
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-md-4 {
-    flex: 1 0 30%;
-    margin: 1%;
-    max-width: 30%;
-}
 /* Captions */
 .cookie-card + p {
     margin-top: 8px;
