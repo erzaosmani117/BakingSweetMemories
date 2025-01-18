@@ -396,9 +396,8 @@ form button {
     color: lightcoral;
 }
 .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
 }
 /*Kid's Corner Page*/
 /* Custom CSS */
