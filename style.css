@@ -408,8 +408,8 @@ border-radius: 5px 5px 0 0;
     margin-bottom: 10px;
     color: lightcoral;
 }
-.card-body{
-    height:auto;
+.card-text{
+    height:50px;
 }
 /*Kid's Corner Page*/
 /* Custom CSS */
