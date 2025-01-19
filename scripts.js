@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+//Kid's Corner Page
 function downloadColoringPage() {
     alert("Downloading coloring pages! Stay creative!");
     // Simulate download action
@@ -32,4 +33,21 @@ function downloadColoringPage() {
 function showRecipe() {
     const recipeModal = new bootstrap.Modal(document.getElementById('recipe-modal'));
     recipeModal.show();
+}
+//Cookie Collection Page
+// Show options (Learn More & Order Now) when hovering over a cookie
+function showOptions(card) {
+    const options = card.querySelector('.cookie-options');
+    options.style.display = 'block';
+}
+
+// Hide options when mouse leaves the cookie card
+function hideOptions(card) {
+    const options = card.querySelector('.cookie-options');
+    options.style.display = 'none';
+}
+
+// "Order Now"
+function orderAlert() {
+    alert("Thank you for your order!");
 }
