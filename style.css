@@ -319,6 +319,11 @@ blockquote::after{
     object-fit: cover; 
     border-radius: 8px; 
 }
+.equal-height{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
   /* About Section */
 #about h2 {
     font-size: 2.5rem;
