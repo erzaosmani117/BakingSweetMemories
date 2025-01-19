@@ -33,3 +33,14 @@ function showRecipe() {
     const recipeModal = new bootstrap.Modal(document.getElementById('recipe-modal'));
     recipeModal.show();
 }
+   document.addEventListener("scroll", function () {
+      const footer = document.querySelector(".aq-footer");
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+
+      if (scrollPosition >= documentHeight) {
+        footer.style.display = "block"; // Show the footer
+      } else {
+        footer.style.display = "none"; // Hide the footer
+      }
+    });
