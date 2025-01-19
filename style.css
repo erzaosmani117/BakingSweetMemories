@@ -121,6 +121,13 @@ footer a{
 footer a:hover {
     color: blue;
      text-decoration: none; }
+.eo-footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;  
+}
 /*Index Page*/
 /* Main Content Styles */ 
 main { flex-grow: 1; margin-bottom: 4rem } 
