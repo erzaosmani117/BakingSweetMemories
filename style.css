@@ -122,15 +122,11 @@ footer a:hover {
     color: blue;
      text-decoration: none; }
  .aq-footer {
-      position: absolute;
+      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
       text-align: center;
-      display: none; 
-      background-color: #333;
-      color: white;
-      padding: 10px;
     }
 /*Index Page*/
 /* Main Content Styles */ 
