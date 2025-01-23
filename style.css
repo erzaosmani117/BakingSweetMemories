@@ -107,7 +107,6 @@ footer {
     background-color: white;
     color: #333;
     text-align: center;
-    /*padding: 1em 0;*/
     margin-top: auto;
 }   
 .footer .text {
@@ -135,12 +134,6 @@ main h1 { font-size: 2.5em; color:rgb(85, 44, 73);}
 main p {color:#6b3e26; }
 main img { width: 50%;
     height: 50%; border-radius: 12px; }
-.sentence{
-    font-family: 'Caveat';
-    color: #530f39 !important;
-    font-weight: bold;
-    font-size: 2rem;
-}
 img {
    max-width: 100%;
     height: auto;}
@@ -190,85 +183,6 @@ img {
 .cookie-card:hover .hover-buttons {
     display: flex;
  }
-.intro{
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #333;
-    max-width: 900px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;  
-}
-.about-cookies{
-    padding: 60px;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 30px;
-}
-.about-cookies h2{
-    font-size: 1.7rem;
-    color: #333;
-    margin-bottom: 20px;
-    font-family: 'Lora';
-}
-.about-cookies ul{
-    list-style-type:square;
-    padding: 0;
-}
-.about-cookies li{
-    font-size: 1.1rem;
-    color: #444;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    text-align: left;
-}
-.cookie-categoroies{
-    padding: 60px;
-    text-align: center;
-   background-color: #fff8e1;
-}
-.cookie-categoroies h2{
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 40px;
-}
-.Categories-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.category{
-    width: 250px; 
-    height: 350px;
-    text-align: center;
-    border-radius: 8px;
-    overflow: hidden;/*To hide overflow if the content goes beyond container*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.cookie-pic{
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    border-bottom: 2px solid #ddd;/*border to seperate image from caption*/
-}
-figcaption{
-    font-size: 1.6rem;
-    color: #444;
-    font-family: 'Caveat';
-    margin-top: 0px;
-}
-.quote-section{
-    text-align: center;
-    padding: 40px 20px;
-    background-color:#fdf4e3;
-    border-top: 2px solid #d2a679;
-    border-bottom: 2px solid #d2a679;
-}
 blockquote{
     font-family: 'Cinzel';
     font-size: 1.5rem;
@@ -301,18 +215,6 @@ blockquote::after{
 .about h2{
     text-align: center;
     font-size: 2.5rem; }
-.cookie-gallery {
-    display: flex;
-    flex-wrap: nowrap; 
-    justify-content: space-between; 
-    padding: 20px;
-    gap: 20px; }
-
-.cookie-entry {
-    display: flex; 
-    align-items: center;
-    gap: 10px; 
-}
 .cookie-entry img {
     width: 300px; 
     height: 300px; 
@@ -339,7 +241,6 @@ blockquote::after{
 }
   /* Sweets Section */
 #sweets .card {
-   /* border: none;*/
     margin-bottom: 2rem;
 }  
 #sweets .card-img-top {
@@ -382,14 +283,9 @@ form button {
 .cookie-card:hover img {
     transform: scale(1.1);
 }
-px;
-    transition: transform 0.3s ease;
-}
-
 .cookie-card:hover img {
     transform: scale(1.1);
 }
-
 /* Captions */
 .cookie-card + p {
     margin-top: 8px;
@@ -528,42 +424,6 @@ border-radius: 5px 5px 0 0;
 .EO-donate li {
     margin: 0.5rem 0;
 }
-/*Kid's Corner page*/
-.kids-corner {
-    background-color: #fff3cd;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.kids-corner h1 {
-    color: #ff6f61;
-    font-size: 2.5rem;
-}
-
-.kids-corner p {
-    color: #555;
-    font-size: 1.2rem;
-}
-
-.fun-section {
-    background-color: #ffeeba;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.fun-section h2 {
-    color: #d63384;
-    font-size: 1.8rem;
-}
-
-.fun-section p {
-    color: #6c757d;
-    font-size: 1rem;
-}
 /*Testimonials*/
 blockquote {
     font-style: italic;
@@ -596,14 +456,6 @@ form .form-label {
 form .form-control {
     border-radius: 5px;
 }
-.btn-warning {
-    background-color: plum;
-    border-color: purple;
-}
-.btn-warning:hover {
-    background-color: palevioletred;
-    border-color:crimson;
-}
 .btn-info {
     color: white;
     border: none;
@@ -628,7 +480,6 @@ form .form-control {
     object-fit: cover;
 }
 /*Responsive layout*/
-/*Mobile phones*/
 /* Mobile phones */
 @media (max-width: 600px) {
   .navbar-brand {
